@@ -1,0 +1,13 @@
+Package: poisDPmix
+Type: Package
+Title: poisDPmix
+Version: 0.2
+Date: 2018-01-03
+Author: K.A. Flagg
+Maintainer: K.A. Flagg <kenneth.flagg@msu.montana.edu>
+Description: Defines functions and classes to fit the models used in my disseration.
+License: CC Share-Alike?
+Depends: coda, spatstat
+LinkingTo: RcppArmadillo, Rcpp, mvtnorm, mixtools, rgdal
+Recommends: parallel
+

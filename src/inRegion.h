@@ -1,0 +1,2 @@
+bool inRegion(const double& x0, const double& y0, double* x, double* y, const int& nV, double& x1, double& y1, double& x2, double& y2, int& counter, int& i, int& j);
+bool inRegions(const double& x0, const double& y0, double** xpt, double** ypt, const int& nP, const int* nVext, double** xint, double** yint, const int* nVint, const int* offs, const int* ends, double& x1, double& y1, double& x2, double& y2, int& counter, int& i, int& j, int& polyidx, int& holeidx);

@@ -1,0 +1,7 @@
+useDynLib(poisDPmix)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
+
+S3method("[", mcmcMap)
+S3method("[", mcmcMapChain)
+S3method("[", mcMatrix)
