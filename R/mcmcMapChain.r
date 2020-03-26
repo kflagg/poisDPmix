@@ -61,7 +61,7 @@ mcmcMapChain <- function(init = list(chain_id = 'Chain', k = NULL, mu = NULL,
       paste0('_poisDPmix_mcmc_chain',
              ifelse(UNBOUNDED, '_unb', ''),
              ifelse(SAMPLED, '_s', ''),
-             ifelse(!AUGMENT, 'n', '')),
+             ifelse(SAMPLED & !AUGMENT, 'n', '')),
       PACKAGE = 'poisDPmix',
       init$chain_id, t(x), a, b, eta, Psi, nu, Omega, alpha,
       n_iter, n_burnin, n_thin, Lambda
